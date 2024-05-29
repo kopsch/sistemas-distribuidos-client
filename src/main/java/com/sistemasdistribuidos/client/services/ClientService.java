@@ -31,6 +31,7 @@ public class ClientService {
     }
 
     public void sendRequest(String request) {
+        System.out.println("Enviado ao Servidor:" + request);
         out.println(request);
     }
 
